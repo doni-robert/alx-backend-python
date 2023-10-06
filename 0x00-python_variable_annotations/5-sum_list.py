@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """ Contains function sum_list """
-from typing import Iterable
+from typing import List 
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Adds up the floats from a list
 
