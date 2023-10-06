@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """ Contains a function sum_mixed_list """
-from typing import Union
+from typing import Union, List
 
 
-def sum_mixed_list(mxd_list: list[Union[int, float]]) -> float:
+def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     """
     Sums up the number elements of a list
 
