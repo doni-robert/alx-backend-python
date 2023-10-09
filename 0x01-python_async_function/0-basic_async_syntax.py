@@ -4,7 +4,7 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay: int = 10) -> int | float:
+async def wait_random(max_delay: int = 10) -> float:
     """
     Returns the argument after a random delay
 
@@ -14,6 +14,6 @@ async def wait_random(max_delay: int = 10) -> int | float:
     Return:
         the integer 'max_delay'
     """
-    rand: int | float = random.uniform(0, max_delay)
+    rand: float = random.uniform(0, max_delay)
     await asyncio.sleep(rand)
     return rand
